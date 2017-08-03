@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.w{
+  width: 1200px;
+  margin: 0 auto;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clear-fex:after{   /*清除浮动*/
+  clear: both;
+  content: "";
+  display: block;
+}
+.clear-fex{
+  zoom=1;
+}
+
+ ul li{
+  list-style-type: none;
+  float: left;
+}
+a{
+  text-decoration: none; 
+}
+/*头部导航开始*/
+.outer{
+  border-bottom: 1px solid #666;
+  padding: 10px 0;
+}
+.down{
+  width: 12px;
+  height: 8px;
+  background: url(img/sprites3.png) no-repeat -31px 0;
+  position: relative;
+  left: 75px;
+  top: 10px;
+}
+.nav li{
+  margin-right: 10px;
+}
+.nav a{
+  color: #666;
+}
+.nav-right .login{
+  color: black;
+}
+/*头部导航结束*/
+
+.logo-left {
+   margin: 20px 0;
+}
+.logo-left1{
+  border-radius: 25px;
+  padding: 5px;
+  width: 70px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+.logo-right p{
+  font-size: 12px;
+}
+
+/*手机专区栏*/
+.line-red{
+  background-color: #f00;
+  height: 50px;
+}
+.mobil-line{
+  padding: 10px 0;
+}
+.mobil-line ul{
+  margin-left: 260px;
+}
+.mobil-line li{
+  margin-right: 50px;
+}
+.mobil-line li a{
+  color: #fff;
+}
+/*手机专区栏*/
+
+.bg{
+  height: 448px;
+  position: relative;
+}
+.number{
+  position: absolute;
+  right: 350px;
+  bottom: 0;
+}
+.number a{
+  text-align: center;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  background-color: gray;
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.number a:first-child{
+  background-color: #f00;
+}
+
+/*全部商品开始*/
+.wares{
+  width: 250px;
+  background-color:rgba(0,0,0,.5);
+  position:absolute;
+  left: 50px;
+  top: -50px;
+  padding-bottom: 65px;
+}
+.wares .item{
+  margin:20px 0;
+  margin-left: 10px;
+}
+.item p:first-child a{
+  color: #fff;
+}
+.item li{
+  padding-right: 10px;
+}
+.wares a{
+ color: #666;
+}
+.item .item-list{
+  margin-top: 5px;
+  width: inherit;
+}
+/*全部商品结束*/
+
+/*手机页面展示开始*/
+.first-line .space{
+  margin-right: 2px;
+}
+.photo-m .second-line{
+  height: 198px;
+}
+.second-line{
+  margin-top: 15px;
+}
+.second-line .describe{
+  width: 32%;
+  margin-right: 10px;
+  border:1px solid #ccc;
+}
+.describe .price{
+  width: 150px;
+  padding-left: 20px;
+}
+.price p:first-child{
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+.price .price-two{
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+.price p:last-child{
+  font-weight: 700;
+  margin-top: 25px;
+  color: red;
+}
+/*手机页面展示结束*/
+
+/*售后开始*/
+.guarantee{
+  margin-top: 50px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+.guarantee-item li{
+  margin-right: 100px;
+}
+.guarantee-item li:first-child{
+  margin-left: 10px;
+}
+.guarantee-item .item-img1{
+  width: 50px;
+  height: 50px;
+  background:url(img/icon14.png) -210px 0;
+}
+.guarantee-item .item-img2{
+  width: 50px;
+  height: 50px;
+  background:url(img/icon14.png) -267px 0;
+}
+.guarantee-item .item-img3{
+  width: 50px;
+  height: 50px;
+  background:url(img/icon14.png) -317px 0;
+}
+.guarantee-item .item-img4{
+  width: 50px;
+  height: 50px;
+  background:url(img/icon14.png) -370px 0;
+}
+.guarantee-item li a{
+  color: #666;
+  line-height: 50px;
+  margin-left: 10px;
+}
+/*售后结束*/
+
+/*帮助开始*/
+.help{
+  width: 200px;
+  height: 125px;
+  padding: 20px;
+}
+.icon1{
+  width: 23px;
+  height: 23px;
+  background: url(img/icon14.png) 0 -50px;
+}
+.help p{
+  line-height: 24px;
+}
+.help .first-p{
+ margin-bottom: 15px;
+} 
+.first-p a:first-child{
+  color: black;
+}
+.help p a{
+  color: #666;
+}
+/*帮助结束*/
+.friend-link{
+  margin-top: 50px;
+  width: inherit;
+  height: 200px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+.friend-link li{
+  margin-right: 10px;
+}
+.friend-link li a{
+  color: #666;
+}
+.friend-link p{
+  color: #ccc;
+  margin-left: 280px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.friend-link .police{
+  margin-left: 100px;
+  text-indent: 2em;
+  background:  url(img/police.png) no-repeat;
+}
+.foot{
+  margin-left: 380px;
+  margin-top: 50px;
+}
+
+
